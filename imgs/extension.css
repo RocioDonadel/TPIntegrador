@@ -1,0 +1,20 @@
+:root{
+    font-size: 1.5vw;
+}
+
+.grid-container{
+    display: grid;
+    grid-template: 
+            "nav" 2%
+            "vista1" 100vh
+            "vista2" 100vh
+            "vista3" 100vh
+            "vista4" 100vh 
+            "footer" 2% / 100%;
+    margin: -0.4rem;
+}
+
+.color-fondo{
+    background-color: black;
+    color:aliceblue;
+}
